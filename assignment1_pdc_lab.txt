@@ -1,0 +1,5 @@
+Q1. from sample 1
+Ans: Main thread finishes before our newly created thread executing start() function get execute. And we all know that we when main terminate ,the pgrogram exits. But when we introduce sleep(1) function in main , delayed main funtion for one second , meanwhile our new thread running 'start' funtion , executed start funtion and exits.
+
+Q2. from sample 2
+Ans :  
