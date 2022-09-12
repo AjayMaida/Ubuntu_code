@@ -12,7 +12,7 @@ int main()
     double i_int = 0.0;
     double dx = 1.0 / N;
 
-#pragma omp parelle for //reduction(+:i_int)
+#pragma omp parelle for reduction(+:i_int)
     
     for (int i = 0; i < N; i++)
     {
